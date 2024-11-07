@@ -1,0 +1,944 @@
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-WARNING: Startup test of beamposition queries for high precision timestamping detected problems on your graphics card + driver combo.
+PTB-WARNING: Some of the queries fail even outside the vertical blank interval, so no effective workaround for this driver bug exists.
+PTB-WARNING: This renders beamposition queries pretty useless -- Disabling high precision timestamping for now.
+PTB-WARNING: Please report this message with a description of your graphics card, operating system and video driver to
+PTB-WARNING: the Psychtoolbox forum. Maybe the gathered information allows for some work-around in
+PTB-WARNING: future PTB releases to get high precision timestamping back on your setup.
+
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Feb  2 2022).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+PTB-WARNING: Couldn't determine end-line of vertical blanking interval for your display! Trouble with beamposition queries?!?
+PTB-WARNING: Detected end-line is 600, which is either lower or more than 1.250000 times higher than vbl startline 750 --> Out of sane range!
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) UHD Graphics 620 :: 4.5.0 - Build 25.20.100.6577
+PTB-INFO: VBL startline = 750 , VBL Endline = 600
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.678744 ms [59.956553 Hz]. (50 valid samples taken, stddev=0.465427 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+
+WARNING: Couldn't compute a reliable estimate of monitor refresh interval! Trouble with VBL syncing?!?
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+
+
+----- ! PTB - WARNING: SYNCHRONIZATION TROUBLE ! -----
+
+One or more internal checks (see Warnings above) indicate that
+queries of rasterbeam position are not properly working for your setup.
+
+Psychtoolbox will work around this by using a different timing algorithm, 
+but it will cause Screen('Flip') to report less accurate/robust timestamps
+for stimulus timing.
+Read 'help BeampositionQueries' for more info and troubleshooting tips.
+
+
+line:562, trial=1, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{Îã§Ïùå ÏÇ¨Ïö© Ï§ë Ïò§Î•òÍ∞Ä Î∞úÏÉùÌï®: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+Ïò§Î•ò Î∞úÏÉù: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'E:\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m', 712)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('E:\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m',712,0)">line 712</a>)
+        Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+Ïò§Î•ò Î∞úÏÉù: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'E:\for_redistribution_files_only_keyboad\task_main_2020.m', 63)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('E:\for_redistribution_files_only_keyboad\task_main_2020.m',63,0)">line 63</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt,
+image_num, 'real', input_scenario, input_seq,
+cons,state_relo);
+} 
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.596359 ms [60.254181 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.563689 ms [60.373025 Hz]. (59 valid samples taken, stddev=0.684390 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+
+WARNING: Couldn't compute a reliable estimate of monitor refresh interval! Trouble with VBL syncing?!?
+
+
+----- ! PTB - ERROR: SYNCHRONIZATION FAILURE ! -----
+
+One or more internal checks (see Warnings above) indicate that synchronization
+of Psychtoolbox to the vertical retrace (VBL) is not working on your setup.
+
+This will seriously impair proper stimulus presentation and stimulus presentation timing!
+Please read 'help SyncTrouble' for information about how to solve or work-around the problem.
+You can force Psychtoolbox to continue, despite the severe problems, by adding the command
+Screen('Preference', 'SkipSyncTests', 1); at the top of your script, if you really know what you are doing.
+
+
+line:562, trial=1, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=2, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=3, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=4, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=5, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=6, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=7, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=8, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=9, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=10, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=11, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=12, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+PTB-INFO: There are still 141 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+INFO: PTB's Screen('Flip', 10) command seems to have missed the requested stimulus presentation deadline
+INFO: a total of 45 times out of a total of 70 flips during this session.
+
+INFO: This number is fairly accurate (and indicative of real timing problems in your own code or your system)
+INFO: if you provided requested stimulus onset times with the 'when' argument of Screen('Flip', window [, when]);
+INFO: If you called Screen('Flip', window); without the 'when' argument, this count is more of a ''mild'' indicator
+INFO: of timing behaviour than a hard reliable measurement. Large numbers may indicate problems and should at least
+INFO: deserve your closer attention. Cfe. 'help SyncTrouble', the FAQ section at www.psychtoolbox.org and the
+INFO: examples in the PDF presentation in PsychDocumentation/Psychtoolbox3-Slides.pdf for more info and timing tips.
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{¥Ÿ¿Ω ªÁøÎ ¡ﬂ ø¿∑˘∞° πﬂª˝«‘: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m', 610)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m',610,0)">line 610</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m', 63)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m',63,0)">line 63</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_num, 'real',
+input_scenario, input_seq, cons,state_relo);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.596796 ms [60.252595 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.596642 ms [60.253151 Hz]. (50 valid samples taken, stddev=0.013117 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+line:562, trial=1, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=2, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+PTB-INFO: There are still 23 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{¥Ÿ¿Ω ªÁøÎ ¡ﬂ ø¿∑˘∞° πﬂª˝«‘: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m', 610)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m',610,0)">line 610</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m', 63)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m',63,0)">line 63</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_num, 'real',
+input_scenario, input_seq, cons,state_relo);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.596442 ms [60.253877 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.596572 ms [60.253407 Hz]. (50 valid samples taken, stddev=0.014067 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+line:562, trial=1, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=2, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=9.500000e+00, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=3, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=4, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=5, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=6, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+PTB-INFO: There are still 63 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+INFO: PTB's Screen('Flip', 10) command seems to have missed the requested stimulus presentation deadline
+INFO: a total of 2 times out of a total of 34 flips during this session.
+
+INFO: This number is fairly accurate (and indicative of real timing problems in your own code or your system)
+INFO: if you provided requested stimulus onset times with the 'when' argument of Screen('Flip', window [, when]);
+INFO: If you called Screen('Flip', window); without the 'when' argument, this count is more of a ''mild'' indicator
+INFO: of timing behaviour than a hard reliable measurement. Large numbers may indicate problems and should at least
+INFO: deserve your closer attention. Cfe. 'help SyncTrouble', the FAQ section at www.psychtoolbox.org and the
+INFO: examples in the PDF presentation in PsychDocumentation/Psychtoolbox3-Slides.pdf for more info and timing tips.
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{¥Ÿ¿Ω ªÁøÎ ¡ﬂ ø¿∑˘∞° πﬂª˝«‘: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m', 610)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m',610,0)">line 610</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m', 63)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m',63,0)">line 63</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_num, 'real',
+input_scenario, input_seq, cons,state_relo);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.595964 ms [60.255615 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.597024 ms [60.251767 Hz]. (50 valid samples taken, stddev=0.019028 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+line:562, trial=1, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=2, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+PTB-INFO: There are still 23 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{¥Ÿ¿Ω ªÁøÎ ¡ﬂ ø¿∑˘∞° πﬂª˝«‘: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m', 610)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m',610,0)">line 610</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m', 63)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m',63,0)">line 63</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_num, 'real',
+input_scenario, input_seq, cons,state_relo);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.595844 ms [60.256050 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.595522 ms [60.257218 Hz]. (50 valid samples taken, stddev=0.012921 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+line:562, trial=1, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=2, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=3, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=4, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=5, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=6, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+PTB-INFO: There are still 63 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{¥Ÿ¿Ω ªÁøÎ ¡ﬂ ø¿∑˘∞° πﬂª˝«‘: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m', 610)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\SIMUL_arbitration_fmri_rpe.m',610,0)">line 610</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+ø¿∑˘ πﬂª˝: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m', 63)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\dckim\Desktop\for_redistribution_files_only_keyboad\task_main_2020.m',63,0)">line 63</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_num, 'real',
+input_scenario, input_seq, cons,state_relo);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.596448 ms [60.253855 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.597170 ms [60.251235 Hz]. (50 valid samples taken, stddev=0.015976 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=2, scenario=1, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=3, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.520000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=4, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.290000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=5, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=6, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.050000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=7, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=8, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=9, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.390000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=10, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=8.600000e+00, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=11, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=7, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=12, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=6.200000e+00, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=13, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=2.810000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=14, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=4.500000e+00, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=15, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=3.700000e+00, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=16, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=7.900000e+00, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=17, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=3, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=18, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=6.600000e+00, condition=-1 state= 2, 8 actions=1, 2
+line:562, trial=19, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=2.500000e+00, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=20, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=5.500000e+00, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=21, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=8.800000e+00, condition=-1 state= 2, 8 actions=1, 2
+line:562, trial=22, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=23, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.760000e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=24, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=25, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=26, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=1.950000e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=27, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=28, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.630000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=29, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=30, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.250000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=31, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.350000e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=32, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=3.330000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=33, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=2.990000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=34, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=22, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=35, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=1.950000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=36, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=1.390000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=37, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=1.060000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=38, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=1.310000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=39, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.220000e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=40, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=1.610000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=41, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=42, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=1.920000e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=43, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=44, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.910000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=45, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 2
+line:562, trial=46, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=9.900000e+00, condition=-1 state= 2, 8 actions=1, 2
+line:562, trial=47, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=3.440000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=48, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=3.460000e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=49, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.590000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=50, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=51, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=9.900000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=52, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=53, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=54, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=55, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=1.770000e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=56, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=57, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=58, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=59, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=60, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=61, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=62, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=63, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=18, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=64, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.780000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=65, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=1.690000e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=66, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=67, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=68, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=69, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=70, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=71, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=72, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.330000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=73, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=74, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=75, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=76, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=77, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=78, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=8.400000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=79, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.520000e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=80, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.390000e+01, condition=-1 state= 4, 6 actions=2, 2
+
+
+PTB-INFO: There are still 1625 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+INFO: PTB's Screen('Flip', 10) command seems to have missed the requested stimulus presentation deadline
+INFO: a total of 24 times out of a total of 831 flips during this session.
+
+INFO: This number is fairly accurate (and indicative of real timing problems in your own code or your system)
+INFO: if you provided requested stimulus onset times with the 'when' argument of Screen('Flip', window [, when]);
+INFO: If you called Screen('Flip', window); without the 'when' argument, this count is more of a ''mild'' indicator
+INFO: of timing behaviour than a hard reliable measurement. Large numbers may indicate problems and should at least
+INFO: deserve your closer attention. Cfe. 'help SyncTrouble', the FAQ section at www.psychtoolbox.org and the
+INFO: examples in the PDF presentation in PsychDocumentation/Psychtoolbox3-Slides.pdf for more info and timing tips.
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+########################################################
+### session1 is done ############################
+### next session = 2 ############################
+########################################################
+- # of response failure in this session = 0. (will be penalized) 
+state relo var : 1  2  3  4  5

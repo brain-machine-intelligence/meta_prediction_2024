@@ -1,0 +1,585 @@
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+$$$$$ ERROR: the corresponding file exists. try another name or session number. $$$$$$$$$$
+task_main_2020
+- scheduling start...
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=3, policy=1
+line 579: state - 1,action 1 - state , action 2 -state 
+line 579: state - 5,action 1 - state , action 2 -state 
+{'state'에는 <a href="matlab:matlab.internal.language.introspective.showAddon('RO', 'state');">Robotics System Toolbox</a>이(가) 필요합니다.
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 797)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',797,0)">line 797</a>)
+        disp(sprintf('line:797, arrival=%d, reward=%d, condition=%d state= %d, %d actions=%d, %d',
+        original_rwd,state_sbj.reward_history(end),current_goal_state,state, state_sbj.state_history(2),
+        state_sbj.state_history(3),sbj.action_history(1),state_sbj.action_history(2)));
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, 1, 'real', input_scenario, input_seq, cons);
+} 
+PTB-INFO: Enforcing script abortion and restoring desktop by executing Screen('CloseAll') now!
+PTB-INFO: Please ignore the false error message (INTERNAL PSYCHTOOLBOX ERROR) caused by this...
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+task_main_2020
+- scheduling start...
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 2  3
+line 579: state - 4,action 1 - state 7  9, action 2 -state 7  9
+{이름 sbj.action_history을(를) 확인할 수 없습니다.
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 797)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',797,0)">line 797</a>)
+        disp(sprintf('line:797, arrival=%d, reward=%d, condition=%d state= %d, %d actions=%d, %d',
+        original_rwd,state_sbj.reward_history(end),current_goal_state, state_sbj.state_history(2),
+        state_sbj.state_history(3),sbj.action_history(1),state_sbj.action_history(2)));
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, 1, 'real', input_scenario, input_seq, cons);
+} 
+PTB-INFO: Enforcing script abortion and restoring desktop by executing Screen('CloseAll') now!
+PTB-INFO: Please ignore the false error message (INTERNAL PSYCHTOOLBOX ERROR) caused by this...
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+task_main_2020
+- scheduling start...
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=2, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=3, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  8
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 2
+line:562, trial=4, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  9, action 2 -state 7  8
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=5, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  9, action 2 -state 7  8
+line:797, arrival=40, reward=2.838882e+01, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=6, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=7, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+PTB-INFO: There are still 40 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  8
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 581)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',581,0)">line 581</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, 1, 'real', input_scenario, input_seq, cons);
+} 
+task_main_2020
+- scheduling start...
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=2, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=10, reward=10, condition=-1 state= 4, 8 actions=2, 2
+line:562, trial=3, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=10, reward=8.451855e+00, condition=-1 state= 4, 8 actions=2, 2
+line:562, trial=4, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=5, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=40, reward=3.280819e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=6, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=2.927092e+01, condition=-1 state= 2, 6 actions=1, 2
+line:562, trial=7, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=8, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=40, reward=2.378484e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=9, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 1
+line:562, trial=10, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.634170e+01, condition=-1 state= 2, 7 actions=1, 1
+line:562, trial=11, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  8, action 2 -state 7  9
+line:797, arrival=20, reward=1.350012e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=12, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  8, action 2 -state 7  9
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=13, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=14, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.061191e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=15, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=8.169724e+00, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=16, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=7.034656e+00, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=17, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=18, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  8, action 2 -state 7  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 2
+line:562, trial=19, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=8.299608e+00, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=20, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=21, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 8  9
+line:797, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 2
+line:562, trial=22, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 2
+line:562, trial=23, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 2
+line:562, trial=24, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 2
+line:562, trial=25, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 2
+line:562, trial=26, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=27, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 6  9
+line:797, arrival=40, reward=3.832432e+01, condition=-1 state= 3, 6 actions=1, 2
+line:562, trial=28, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=29, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=30, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 8  9
+line:797, arrival=10, reward=7.854125e+00, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=31, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=32, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=33, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=34, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 2
+line:562, trial=35, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  9
+line:797, arrival=40, reward=3.780842e+01, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=36, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=37, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 2
+line:562, trial=38, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 8  9
+line:797, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 1
+line:562, trial=39, scenario=2, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  8, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=40, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=41, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=42, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=43, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=44, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=45, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 6  8
+line:797, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 2
+line:562, trial=46, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 6  8
+line:797, arrival=40, reward=2.848841e+01, condition=-1 state= 2, 6 actions=1, 2
+line:562, trial=47, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=10, reward=7.198178e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=48, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=49, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 8  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=50, scenario=5, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 6  8
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=51, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=40, reward=3.233329e+01, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=52, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 8  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=53, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=54, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 8  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=55, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 2
+line:562, trial=56, scenario=5, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 2
+line:562, trial=57, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=58, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 6  8
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=59, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  8
+line:797, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=60, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 8  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=61, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=62, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=63, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=3.240372e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=64, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=65, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 2
+line:562, trial=66, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=67, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=68, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=69, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=1.436154e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=70, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=1.049072e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=71, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=7.951201e+00, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=72, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 2
+line:562, trial=73, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 8  9
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=74, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=3.243882e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=75, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=76, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=3.340691e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=77, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=2.728894e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=78, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=40, reward=2.773267e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=79, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 7  8
+line:797, arrival=20, reward=1.464983e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=80, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 6  9
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+
+
+PTB-INFO: There are still 839 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+########################################################
+### session1 is done ############################
+### next session = 2 ############################
+########################################################
+- # of response failure in this session = 0. (will be penalized) 

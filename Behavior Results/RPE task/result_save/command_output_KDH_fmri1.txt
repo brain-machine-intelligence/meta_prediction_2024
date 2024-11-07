@@ -1,0 +1,386 @@
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Oct  3 2021).
+PTB-INFO: OS support status: Windows 7 (Version 6.1) partially supported, but no longer tested at all.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Will disable DWM because a regular fullscreen onscreen window is opened -> We want best timing and performance.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro FX 3800/PCIe/SSE2 :: 3.3.0
+PTB-INFO: VBL startline = 600 , VBL Endline = 599
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.595509 ms [60.257266 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.596900 ms [60.252214 Hz]. (50 valid samples taken, stddev=0.021826 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=2, scenario=1, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=3, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=4, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=8, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=5, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=6.600000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=6, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.210000e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=7, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=5.900000e+00, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=8, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=4.600000e+00, condition=-1 state= 3, 8 actions=1, 1
+line:562, trial=9, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=10, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=1.560000e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=11, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 1
+line:562, trial=12, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=1.340000e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=13, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=1.020000e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=14, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=2.770000e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=15, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=20, reward=7.500000e+00, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=16, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=3.900000e+00, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=17, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=5.800000e+00, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=18, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=3.100000e+00, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=19, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=4.500000e+00, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=20, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=2.500000e+00, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=21, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=22, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=23, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=24, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=25, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=26, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=9.700000e+00, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=27, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.460000e+01, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=28, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=1.120000e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=29, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=36, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=30, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=2.930000e+01, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=31, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=32, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=7.600000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=33, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.110000e+01, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=34, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.210000e+01, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=35, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=9, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=36, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=6.700000e+00, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=37, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=5.500000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=38, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=1.010000e+01, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=39, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=6.400000e+00, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=40, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=5.500000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=41, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=42, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=43, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=3.530000e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=44, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=8.100000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=45, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=1.520000e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=46, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=1.310000e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=47, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=5.800000e+00, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=48, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.110000e+01, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=49, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=1.180000e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=50, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=4.300000e+00, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=51, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=2.280000e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=52, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=3.300000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=53, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=8.900000e+00, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=54, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=7.700000e+00, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=55, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=20, reward=5.500000e+00, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=56, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=3, condition=-1 state= 2, 8 actions=1, 1
+line:562, trial=57, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=3.900000e+00, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=58, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=1.710000e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=59, scenario=5, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=19, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=60, scenario=5, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=1.670000e+01, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=61, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=3.480000e+01, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=62, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=63, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 1
+line:562, trial=64, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=65, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=66, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=67, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=68, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=69, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=70, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=71, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=9.900000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=72, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=73, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=74, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=10, reward=9.700000e+00, condition=-1 state= 5, 8 actions=2, 1
+line:562, trial=75, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=76, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=77, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  7, action 2 -state 6  7
+line:892, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=78, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 8  9, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 3, 8 actions=1, 2
+line:562, trial=79, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 7  8, action 2 -state 6  9
+line:892, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=80, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  8, action 2 -state 7  8
+line:892, arrival=10, reward=10, condition=-1 state= 2, 8 actions=1, 1
+
+
+PTB-INFO: There are still 1634 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+INFO: PTB's Screen('Flip', 10) command seems to have missed the requested stimulus presentation deadline
+INFO: a total of 18 times out of a total of 831 flips during this session.
+
+INFO: This number is fairly accurate (and indicative of real timing problems in your own code or your system)
+INFO: if you provided requested stimulus onset times with the 'when' argument of Screen('Flip', window [, when]);
+INFO: If you called Screen('Flip', window); without the 'when' argument, this count is more of a ''mild'' indicator
+INFO: of timing behaviour than a hard reliable measurement. Large numbers may indicate problems and should at least
+INFO: deserve your closer attention. Cfe. 'help SyncTrouble', the FAQ section at www.psychtoolbox.org and the
+INFO: examples in the PDF presentation in PsychDocumentation/Psychtoolbox3-Slides.pdf for more info and timing tips.
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 1).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+########################################################
+### session1 is done ############################
+### next session = 2 ############################
+########################################################
+- # of response failure in this session = 1. (will be penalized) 
+state relo var : 5  3  2  4  1

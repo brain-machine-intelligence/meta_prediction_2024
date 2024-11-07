@@ -1,0 +1,1543 @@
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 4,action 1 - state 7  8, action 2 -state 8  9
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 598)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',598,0)">line 598</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, 1, 'real', input_scenario, input_seq, cons);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 8  9, action 2 -state 8  9
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',596,1)">596 </a>            disp(['line 579: state - ' num2str(current_state) ',action 1 - state ' num2str(find(map_sbj.action(1,1).connection(current_state,:))) ', action 2 -state ' num2str(find(map_sbj.action(1,2).connection(current_state,:)))])
+if system_dependent('IsDebugMode')==1, dbcont; end
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 700)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',700,0)">line 700</a>)
+        Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_seed, 'real', input_scenario,
+input_seq, cons);
+} 
+qq
+{'qq'은(는) 인식할 수 없는 함수 또는 변수입니다.
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',701,1)">701 </a>        DrawFormattedText(wPtr, '.', 'center', 'center', COLOR_FIXATION_MARK,'','',1); % add 'o' mark at the click pt.
+diary on
+EXP_NAME_IN = num2str(PART_NUMBER); dummy_ii=0;
+index_num = SESS_NUMBER; % : session#   
+visited_goal_state = 0;
+
+% % % session_opt='fmri'; %'pre','fmri'`
+
+%scanner key device : USB HHSC-2x4-C
+% use "key_test.m" to see the actual number of keyboard input.
+% check line 320-330 for monitor compatibility
+case_num=COLOR_CASE;
+current_sess_percent=50;
+current_sess_score=0;
+%% organizing all the cue presentation files before the practice session
+% refer to ../result_save/List_subject_info.xlsx and update!
+if(strcmp(session_opt,'pre')==1)
+    
+    if(index_num==1) % for the first session per each subject
+        case_num=COLOR_CASE;
+        disp('- now starting to organize the cue presentation files...');
+        SIMUL_arbitration_fmri2_init(case_num);
+        disp('- organization of the cue presentation files completed.');
+    end
+end
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+
+%% function option check
+okay_to_start=0;
+if(strcmp(session_opt,'pre')==1)
+    okay_to_start=1;
+end
+if(strcmp(session_opt,'fmri')==1)
+    okay_to_start=1;
+end
+if(okay_to_start~=1)
+    error('- ERROR:: check the "session_opt!"');
+end
+
+EXP_NAME=[EXP_NAME_IN '_' session_opt];
+
+
+seed_path0=pwd;%['D:\0-program\One shot learning']; % laptop
+seed_path=[seed_path0 '\seed\'];
+
+
+%% check if session file exists, and other conditions
+COND_NEW_FILE=1;
+file_chk_name=[EXP_NAME sprintf('_%d.mat',index_num)];
+file_name_check=[pwd '\result_save\' file_chk_name];
+if(exist(file_name_check)==2)
+    disp('$$$$$ ERROR: the corresponding file exists. try another name or session number. $$$$$$$$$$');
+    COND_NEW_FILE=0;
+    return;
+end
+if(index_num>1)
+    file_chk_name2=[EXP_NAME sprintf('_%d.mat',index_num-1)];
+    file_name_check2=[pwd '\result_save\' file_chk_name2];
+    if(exist(file_name_check2)==0) % if the previous session file does not exist
+        disp('$$$$$ ERROR: The previous session file does not exist. Check the previous session number. $$$$$$$$$$');
+        COND_NEW_FILE=0;
+        return;
+    end
+end
+MAX_SESSION_NUM=5;
+if(index_num>MAX_SESSION_NUM) % MAX session number =5 !
+    disp(sprintf('$$$$$ ERROR: exceeds the max # of sessions =%d. $$$$$$$$$$',MAX_SESSION_NUM));
+    COND_NEW_FILE=0;
+    return;
+end
+
+warning('off')
+close all
+output_info=0;
+
+
+
+%% options type1 - display
+
+% screen size - fixed
+%SCREEN_RESOLUTION=[1280 800];
+SCREEN_RESOLUTION=[1920 1080];
+
+% image size
+KEEP_PICTURE_OPT=1; % always 1
+DO_TAKE_SNAPSHOT=0;
+IMAGE_SIZE=[256 256]; %width,height - for cue presentation
+OUTCOME_MSG_SIZE=[800 185]; %width,height - for reward message presentation
+GOAL_IMG_SIZE=[256 245]; % width,height - for goal state presentation
+disp_scale=1.0; % for cue presentation
+disp_scale_goalimg=0.4; % for goal image presentation
+disp_scale_outcome_msg=0.5; % for outcome msg presentation
+disp_scale_scoring=0.7; % for mouse-clicking score submission display
+Tot_session=1; % # of total sessions (fixed because this runs for each session)
+
+% text size
+text_size_default=20; % font size (don't change)
+text_size_reward=800; % height in pixel
+use_unicode = true; %false;
+
+% background color
+BackgroundColor_block_intro=[130,130,130,150]; % gray
+BackgroundColor_Cue_page=[210,210,210,150]; % light gray
+BackgroundColor_Trial_ready_page=[210,210,210,150]; % light gray
+BackgroundColor_Reward_page=[210,210,210,150]; % light gray
+COLOR_FIXATION_MARK=[70,70,70,200]; % dark gray
+
+
+switch test_switch
+    
+    case 'test'
+        
+        % pre-session : # of blocks
+        if(strcmp(session_opt,'pre')==1)
+            Tot_block=4;%length(seq(1,:)); % # of total blocks (MUST be the multitude of 4(=#of conditions)
+        end
+        % fmri-session : # of blocks
+        if(strcmp(session_opt,'fmri')==1)
+            Tot_block=4;%length(seq(1,:)); % 16; % # of total blocks (MUST be the multitude of 4(=#of conditions)
+        end
+        
+    case 'real'
+        Tot_block = 4;%length(seq(1,:));
+               
+    otherwise
+        
+        error('problem with test_switch specification');
+        
+end
+
+
+%% options type2 - display speed, trial length, ITI, timing,...
+
+% session schedule
+        % G: specific-goal, state transition probability=(0.9,0.1):low uncertainty 
+        % G': specific-goal, state transition probability=(0.5,0.5):high uncertainty
+        % H: flexible-goal, state transition probability=(0.5,0.5):high uncertainty 
+        % H': flexible-goal, state transition probability=(0.9,0.1):low uncertainty
+range_num_trials_G0_G1_H0_H1=[[3,5];[5,7];[5,7];[3,5]]; % each row: minmax # of trials of G,G',H,H'
+time_estimation_trial_sec=6; %(sec)- used to estimate session time when scheduling
+time_limit_session_min=30; %(min) - rescheduling until the time estimation meets thie criterion (limit)
+ffw_speed = 1.5;
+
+% sec_stim_ready=.1; %(sec)
+% sec_trial_ready=1.0/ffw_speed; %(sec)
+sec_scanner_ready=5/ffw_speed; % sec for scanner stabilization
+% sec_block_ready=0.5/ffw_speed; % sec for block ready signal
+% sec_stim_display=0.0/ffw_speed;
+sec_stim_interval=[1 4]/(ffw_speed);%1.5; %(sec)
+%%% sec_trial_interval=[1 1]/(ffw_speed);%1.5; %(sec) %%% SFW: is unused
+sec_limit_decision=4;%/(ffw_speed); % time limit of decision (sec)
+sec_jittered_blank_page=0.15/(ffw_speed); % (sec)
+sec_reward_display=2/ffw_speed; % only for 'fmri' option. 1.5sec for 'pre' session
+
+
+
+%% key code definition
+
+% fMRI scanner system setting
+%KEY_L=65;
+%KEY_R=68;
+%KEY_Y=51;
+%KEY_N=52;
+%KEY_Q=81;
+%KEY_T=53;
+%KEY_S=83;
+
+% my laptop setting
+KEY_L=KbName('a');%37; %a
+KEY_R=KbName('d');%39; %d
+KEY_Y=KbName('y'); %'y'
+KEY_N=KbName('n'); %'n'
+KEY_Q=KbName('q'); %'q'
+KEY_T=KbName('t'); % 't', 5 in desktop, 84 in laptop
+KEY_S=KbName('b'); % 'b'
+trigger_key=KbName('s'); %'s'
+%  KEY_L=65;%37; %a
+%  KEY_R=68;%39; %d
+%  KEY_Y=89; %'y'
+%  KEY_N=78; %'n'
+%  KEY_Q=81; %'q'
+%  KEY_T=84; % 't', 5 in desktop, 84 in laptop
+%  KEY_S=66; % 'b'
+%  trigger_key=83; %'s'
+map_opt.transition_prob_seed=[0.5 0.5];%[0.9 0.1];
+map_opt.reward_seed=[40 20 10 0];
+if strcmp(session_opt,'pre')
+    [myMap N_state N_action N_transition]=Model_Map_Init2('jaehoon2020',map_opt);
+    save('maps.mat','myMap','N_state','N_action','N_transition')
+else
+    load('maps.mat','myMap','N_state','N_action','N_transition')
+end
+map_sbj=myMap;
+% create my state
+myState=Model_RL_Init(N_state,N_action,N_transition);
+
+
+%% global variables (for each block)
+HIST_event_info0=[];
+HIST_behavior_info0=[];
+if(index_num==1) % create the image usage matrix if this is the first session
+
+    % event   : HIST_event_info{1,session#}
+    HIST_event_info_Tag{1,1}='row1 - block#';    HIST_event_info_Tag{2,1}='row2 - trial# (in each block), 0 if outside of the trial';     HIST_event_info_Tag{3,1}='row3 - trial_s#, 0 if outside of the trial_s';
+    HIST_event_info_Tag{4,1}='row4 - event time in session';   HIST_event_info_Tag{5,1}='row5 - event time in block';       HIST_event_info_Tag{6,1}='row6 - event time in trial';
+    HIST_event_info_Tag{7,1}='row7 - state. 0.5: fixation mark on, 1: S1, 2: S2, 3: S3, 4: S4, 5: S5, 6(+/-)0.1: O1(with win/lost msg), 7(+/-)0.1: O2(with win/lost msg), 8(+/-)0.1: O3(with win/lost msg), 9: O4, 10:A1, 11:A2, 20: a short blank page display, -99:fail to choose in time limit, (-) when display off';
+    HIST_event_info_Tag{8,1}='row8 - goal state=outcome state. 6: 40reward state, 7: 20reward state, 8: 10reward state, -1: universal state';
+
+    % behavior : HIST_behavior_info{1,session#}    
+    HIST_behavior_info_Tag{1,1}='col1 - block #';    HIST_behavior_info_Tag{1,2}='col2 - trial # (in each block)';
+    %HIST_behavior_info_Tag{1,3}='col3 - block condition - 1: G(with low uncertainty), 2: G''(with high uncertainty), 3:H(with high uncertainty), 4:H''(with low uncertainty)';
+    HIST_behavior_info_Tag{1,3}='col3 - 1st action policy - 1: defualt, 2: visited recovery, 3: unvisited recovery';
+    %1: default, 2: deterministic, 3: stochastic, 4: re-distribution, 5 %reset'
+    HIST_behavior_info_Tag{1,4}='col4 - currently dummy/2nd action policy - currently no meaning';
+    %1: default, 2: deterministic, 3: stochastic, 4: re-distribution, 5: reset';
+    HIST_behavior_info_Tag{1,5}='col5 - S1';
+    HIST_behavior_info_Tag{1,6}='col6 - S2';        
+    HIST_behavior_info_Tag{1,7}='col7 - S3';
+    HIST_behavior_info_Tag{1,8}='col8 - A1 (action in S1)';     
+    HIST_behavior_info_Tag{1,9}='col9 - A2 (action in S2)'; 
+    HIST_behavior_info_Tag{1,10}='col10 - RT(A1)';        
+    HIST_behavior_info_Tag{1,11}='col11 - RT(A2)';
+    HIST_behavior_info_Tag{1,12}='col12 - on set (S1) from the trial start';      
+    HIST_behavior_info_Tag{1,13}='col13 - onset (S2) from the trial start';      
+    HIST_behavior_info_Tag{1,14}='col14 - onset (S3) from the trial start';
+    HIST_behavior_info_Tag{1,15}='col15 - onset (A1) from the trial start';      
+    HIST_behavior_info_Tag{1,16}='col16 - onset (A2) from the trial start';
+    HIST_behavior_info_Tag{1,17}='col17 - reward amount (0/10/20/40) at S3';
+    HIST_behavior_info_Tag{1,18}='col18 - total amount (total in the current session)';
+    HIST_behavior_info_Tag{1,19}='col19 - goal state=outcome state. 6: 40reward state, 7: 20reward state, 8: 10reward state, -1: universal state';
+    HIST_behavior_info_Tag{1,20}='col20 - block condition - 1: min RPE, 2: max RPE, 3: min SPE, 4: max SPE. 5: baseline';
+    %'col20 - block condition - 1: min SPE, 2: max SPE, 3: min RPE, 4: max RPE. 5: baseline' ;%'col20 -block condition - 0: max SPE, 1: min SPE, 2: max RPE, 3: min RPE. 4: max SPE max RPE, 5: max SPE min RPE, 6: min SPE max RPE, 7: min SPE max RPE';
+    HIST_behavior_info_Tag{1,21}='dummy'; %'col21 - block condition - 1: flexible goal, 2: specific goal';
+    HIST_behavior_info_Tag{1,22}='col22 - block confidence';
+    HIST_behavior_info_Tag{1,23}='col23 - dummy score';
+    HIST_behavior_info_Tag{1,24}='col24 - dummy ranking';
+    
+    HIST_map_state_info_Tag{1,1}='state - state used in the s1,s2,s3';
+    HIST_map_state_info_Tag{1,2}='map - map used in the s1,s2,s3';
+
+    
+else % load image usage matrix to update
+    file_imgind_ld_name=[EXP_NAME '_info.mat'];
+    file_name_ld=[pwd '\result_save\' file_imgind_ld_name];
+    load(file_name_ld);
+end
+
+% seed image read
+img_set=cell(1,9); % including othe output states
+for img_ind=1:1:9
+    file_full_path=[seed_path sprintf('s%03d.png',img_ind)];
+    img_set{1,img_ind}=imresize(imread(file_full_path),[ IMAGE_SIZE(1) IMAGE_SIZE(2) ]); % get a frame %%% TURNED AROUND BY SFW (new imresize file)
+end
+% reward message image read
+img_set_reward_msg_win=cell(1,4); % msg for 40, 20, 10, 0
+img_set_reward_msg_lost=cell(1,3); % msg for 40, 20, 10
+for jj=1:1:4
+    file_full_path=[seed_path sprintf('r%03d_win.png',jj)];
+    img_set_reward_msg_win{1,jj}=imresize(imread(file_full_path),[ NaN text_size_reward ]); %%% TURNED AROUND BY SFW (new imresize file)
+end
+for jj=1:1:3
+    file_full_path=[seed_path sprintf('r%03d_lost.png',jj)];
+    img_set_reward_msg_lost{1,jj}=imresize(imread(file_full_path),[ NaN text_size_reward ]); %%% TURNED AROUND BY SFW (new imresize file)
+end
+% img_set_reward_msg_win2=cell(6,4); % msg for 40, 20, 10, 0
+% img_set_reward_msg_lost2=cell(6,3); % msg for 40, 20, 10
+% for ii=1:1:6
+%     for jj=1:1:3
+%         file_full_path=[seed_path sprintf('seed_images2/case%d_r%d_win.png',ii,jj)];
+%         img_set_reward_msg_win2{ii,jj}=imresize(imread(file_full_path),[ NaN text_size_reward ]); %%% TURNED AROUND BY SFW (new imresize file)
+%     end
+%     file_full_path=[seed_path 'seed_images2/r004_win.png'];
+%     img_set_reward_msg_win2{ii,4}=imresize(imread(file_full_path),[ NaN text_size_reward ]); %%% TURNED AROUND BY SFW (new imresize file)
+% end
+for ii=1:6
+    for jj=1:1:3
+        file_full_path=[seed_path sprintf('seed_images2/case%d_r%d_lost.png',ii,jj)];
+        img_set_reward_msg_lost2{1,jj}=imresize(imread(file_full_path),[ NaN text_size_reward ]); %%% TURNED AROUND BY SFW (new imresize file)
+    end
+end
+% goal state image read
+img_set_goal=cell(1,4); % 40, 20 ,10, universal
+for jj=1:1:4
+    file_full_path=[seed_path sprintf('g%03d.png',jj)];
+    % img_set_goal{1,jj}=imresize(imread(file_full_path),[GOAL_IMG_SIZE(2) GOAL_IMG_SIZE(1)]); %%% SKIPPED RESIZING BY SFW
+    img_set_goal{1,jj}=imread(file_full_path);
+end
+
+%msg image read
+img_set_msg = cell(1,8);
+for jj=1:1:8
+    file_full_path=[pwd '/images_reverted/' sprintf('%04d.jpg',jj)];
+    img_set_msg{1,jj}=imresize(imread(file_full_path),[ NaN text_size_reward ]); %%% TURNED AROUND BY SFW (new imresize file)
+end
+
+
+%% Scheduling (block sequence)
+% G:1, G':2, H:3, H':4 
+% # of trials : G,H'~[3,5], G',H~[5,7]
+criterion=0;
+HIST_block_condition_Tag{1,1}='row1: block #';
+%HIST_block_condition_Tag{2,1}='row2: block condition of each trial: 1:G, 2:G'', 3:H, 4:H''';
+HIST_block_condition_Tag{2,1}='row2: action policy - 1: defualt, 2: visited recovery, 3: unvisited recovery';
+% 1: default, 2: deterministic, 3: stochastic, 4: re-distribution, 5: reset';
+HIST_block_condition_Tag{3,1}='row3: block condition - block condition - 1: min RPE, 2: max RPE, 3: min SPE, 4: max SPE. 5: baseline'; %0: max SPE, 1: min SPE, 2: max RPE, 3: min RPE. 4: max SPE max RPE, 5: max SPE min RPE, 6: min SPE max RPE, 7: min SPE max RPE';
+HIST_block_condition_Tag{4,1}='row4: - block condition - 1: flexible goal, 2: specific goal';
+% HIST_block_condition_Tag{5,1}='row5 - block condition - 1: 0.5/0.5, 2: 0.9/0.1';
+HIST_block_condition_Tag{5,1}='row5 - visited_goal_state';
+disp('- scheduling start...');
+- scheduling start...
+single_block_condition=[]; % (2xtrial#) row1: block#, row2: the block condition of each trial
+trial_length=20;
+single_block_condition=zeros(5,length(seq(1,:)));
+for ii=1:4
+    single_block_condition(1,trial_length*(ii-1)+1:trial_length*ii)=ii;%HIST_block_condition_Tag{1,1}='row1: block #';
+end
+single_block_condition(2,:)=seq(1,:);%HIST_block_condition_Tag{2,1}='row2: action policy - 1: default, 2: deterministic, 3: stochastic, 4: re-distribution, 5: reset';
+single_block_condition(3,:)=scenario;%HIST_block_condition_Tag{3,1}='row3: block condition -  1: min RPE, 2: max RPE, 3: min SPE, 4: max SPE. 5: baseline'; 1: min SPE, 2: max SPE, 3: min RPE, 4: max  RPE. 5: min SPE min RPE, 6: max SPE max RPE, 7: min SPE max RPE, 8: min SPE max RPE';
+single_block_condition(4,:)=1;%HIST_block_condition_Tag{4,1}='row4 - block condition - 1: flexible goal, 2: specific goal'
+%single_block_condition(5,:)=1;%HIST_block_condition_Tag{5,1}='row5 - block condition - 1: 0.5/0.5, 2: 0.9/0.1'
+single_block_condition(5,:)=0;%HIST_block_condition_Tag{5,1}='row5 - visited_goal_state'
+HIST_block_condition{1,index_num}=single_block_condition;
+disp('- proceed to the experiment...');
+- proceed to the experiment...
+
+
+
+
+
+%%
+%% EXPERIMENT STARTS HERE
+%%
+
+
+%% Display initialization
+whichScreen = 2;
+Screen('Preference', 'SkipSyncTests', 2);
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+wPtr  = Screen('OpenWindow',whichScreen);
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 7  8, action 2 -state 7  8
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  8, action 2 -state 6  7
+PTB-DEBUG: DrawText: Failed to load external drawtext plugin [Unknown error].
+PTB-INFO: DrawText: Failed to load external drawtext plugin 'libptbdrawtext_2_64.dll'. Reverting to legacy GDI text renderer. 'help DrawTextPlugin' for troubleshooting.
+line:797, arrival=20, reward=20, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=2, scenario=1, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+line 579: state - 5,action 1 - state 7  9, action 2 -state 7  9
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 599)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',599,0)">line 599</a>)
+            Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_seed, 'real', input_scenario,
+input_seq, cons);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 8  9, action 2 -state 6  7
+PTB-DEBUG: DrawText: Failed to load external drawtext plugin [Unknown error].
+PTB-INFO: DrawText: Failed to load external drawtext plugin 'libptbdrawtext_2_64.dll'. Reverting to legacy GDI text renderer. 'help DrawTextPlugin' for troubleshooting.
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 2
+line:562, trial=2, scenario=1, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 7  8
+line:797, arrival=10, reward=10, condition=-1 state= 4, 8 actions=2, 2
+line:562, trial=3, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 6  9, action 2 -state 7  8
+
+
+PTB-INFO: There are still 17 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+Error in function FillRect: 	Invalid Window (or Texture) Index provided: It doesn't correspond to an open window or texture.
+Did you close it accidentally via Screen('Close') or Screen('CloseAll') ?
+{다음 사용 중 오류가 발생함: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Screen')" style="font-weight:bold">Screen</a>
+Usage:
+
+Screen('FillRect', windowPtr [,color] [,rect] )
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SIMUL_arbitration_fmri_rpe', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m', 701)" style="font-weight:bold">SIMUL_arbitration_fmri_rpe</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\SIMUL_arbitration_fmri_rpe.m',701,0)">line 701</a>)
+        Screen('FillRect',wPtr,BackgroundColor_Cue_page);
+
+오류 발생: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task_main_2020', 'C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m', 61)" style="font-weight:bold">task_main_2020</a> (<a href="matlab: opentoline('C:\Users\JaehoonShin\Desktop\Jaehoon_Shin\연구\뇌모사(2020.06~)\2020후반기행동실험\fMRI\task_main_2020_dist\for_redistribution_files_only\task_main_2020.m',61,0)">line 61</a>)
+SIMUL_arbitration_fmri_rpe(name, sess_num, sess_opt, image_seed, 'real', input_scenario,
+input_seq, cons);
+} 
+task_main_2020
+- scheduling start...
+- now starting to organize the cue presentation files...
+initialization completed.
+- organization of the cue presentation files completed.
+- scheduling start...
+- proceed to the experiment...
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.17 - Build date: Apr 13 2021).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid priority support, community membership and commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+
+
+PTB-INFO: OpenGL-Renderer is Intel :: Intel(R) HD Graphics 630 :: 4.6.0 - Build 27.20.100.8681
+PTB-INFO: VBL startline = 1080 , VBL Endline = -1
+PTB-INFO: Beamposition queries unsupported or defective on this system. Using basic timestamping as fallback.
+PTB-INFO: Timestamps returned by Screen('Flip') will be therefore less robust and accurate.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 0.000000 ms [inf Hz]. (0 valid samples taken, stddev=0.000000 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.949153 ms [59.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE. On this Windows-10 or later system, Psychtoolbox can no longer reliably detect if
+PTB-INFO: this will cause trouble for timing and integrity of visual stimuli or not. You might be just fine, or you could be in trouble.
+PTB-INFO: Use external measurement equipment and independent procedures to verify reliability of timing if you care about proper timing.
+PTB-INFO: ==============================================================================================================================
+PTB-INFO: All display tests and calibrations disabled. Assuming a refresh interval of 59.000000 Hz. Timing will be inaccurate!
+line:562, trial=1, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+PTB-DEBUG: DrawText: Failed to load external drawtext plugin [Unknown error].
+PTB-INFO: DrawText: Failed to load external drawtext plugin 'libptbdrawtext_2_64.dll'. Reverting to legacy GDI text renderer. 'help DrawTextPlugin' for troubleshooting.
+line:797, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=2, scenario=1, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=3, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=1.439485e+01, condition=-1 state= 3, 7 actions=1, 1
+line:562, trial=4, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=3.183938e+01, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=5, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=1.148681e+01, condition=-1 state= 3, 7 actions=1, 1
+line:562, trial=6, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=2.290353e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=7, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=1.794171e+01, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=8, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=9.034123e+00, condition=-1 state= 3, 7 actions=1, 1
+line:562, trial=9, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=8.100090e+00, condition=-1 state= 3, 7 actions=1, 1
+line:562, trial=10, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=5.722877e+00, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=11, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=4.436686e+00, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=12, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=1.431636e+01, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=13, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=1.076799e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=14, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 2
+line:562, trial=15, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=3.653248e+00, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=16, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=17, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=18, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=9.036386e+00, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=19, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=6.390103e+00, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=20, scenario=1, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=21, scenario=2, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=22, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=23, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 1
+line:562, trial=24, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=3.909108e+01, condition=-1 state= 2, 6 actions=1, 2
+line:562, trial=25, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=26, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=3.708350e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=27, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=28, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=1.898681e+01, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=29, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=30, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=31, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=40, reward=40, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=32, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=0, reward=0, condition=-1 state= 5, 9 actions=2, 2
+line:562, trial=33, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=34, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=35, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.892203e+01, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=36, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 2
+line:562, trial=37, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=38, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=39, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.971336e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=40, scenario=2, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=40, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=41, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=2.874696e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=42, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=20, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=43, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=40, reward=2.376049e+01, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=44, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=20, reward=1.980674e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=45, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=2.137937e+01, condition=-1 state= 2, 6 actions=1, 1
+line:562, trial=46, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=1.681481e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=47, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=48, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=40, reward=1.597843e+01, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=49, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=1.219611e+01, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=50, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=51, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=20, reward=1.692262e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=52, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=20, reward=1.327629e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=53, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 2
+line:562, trial=54, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=20, reward=1.052348e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=55, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=1.033969e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=56, scenario=3, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=57, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=1.018743e+01, condition=-1 state= 2, 6 actions=1, 2
+line:562, trial=58, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=59, scenario=3, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=1.136303e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=60, scenario=3, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=40, reward=8.022282e+00, condition=-1 state= 5, 6 actions=2, 1
+line:562, trial=61, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=10, reward=10, condition=-1 state= 5, 8 actions=2, 2
+line:562, trial=62, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=20, reward=20, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=63, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=40, reward=3.083565e+01, condition=-1 state= 2, 6 actions=1, 2
+line:562, trial=64, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=3.713971e+01, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=65, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=3.669066e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=66, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=67, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=3.864232e+01, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=68, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=0, reward=0, condition=-1 state= 3, 9 actions=1, 2
+line:562, trial=69, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=20, reward=20, condition=-1 state= 3, 7 actions=1, 2
+line:562, trial=70, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=71, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 3,action 1 - state 6  7, action 2 -state 7  9
+line:797, arrival=40, reward=40, condition=-1 state= 3, 6 actions=1, 1
+line:562, trial=72, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.512603e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=73, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 5,action 1 - state 6  7, action 2 -state 8  9
+line:797, arrival=20, reward=1.072796e+01, condition=-1 state= 5, 7 actions=2, 1
+line:562, trial=74, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=40, reward=40, condition=-1 state= 4, 6 actions=2, 2
+line:562, trial=75, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 4, 9 actions=2, 1
+line:562, trial=76, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=0, reward=0, condition=-1 state= 2, 9 actions=1, 1
+line:562, trial=77, scenario=4, policy=2
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.264545e+01, condition=-1 state= 4, 7 actions=2, 2
+line:562, trial=78, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 2,action 1 - state 6  9, action 2 -state 6  7
+line:797, arrival=20, reward=1.103732e+01, condition=-1 state= 2, 7 actions=1, 2
+line:562, trial=79, scenario=4, policy=1
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=9.712073e+00, condition=-1 state= 4, 7 actions=2, 1
+line:562, trial=80, scenario=4, policy=3
+line 579: state - 1,action 1 - state 2  3, action 2 -state 4  5
+line 579: state - 4,action 1 - state 7  9, action 2 -state 6  7
+line:797, arrival=20, reward=7.556045e+00, condition=-1 state= 4, 7 actions=2, 1
+
+
+PTB-INFO: There are still 828 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+WARNING: This session of your experiment was run by you with the setting Screen('Preference', 'SkipSyncTests', 2).
+WARNING: This means that some internal self-tests and calibrations were skipped. Your stimulus presentation timing
+WARNING: may have been wrong. This is fine for development and debugging of your experiment, but for running the real
+WARNING: study, please make sure to set Screen('Preference', 'SkipSyncTests', 0) for maximum accuracy and reliability.
+########################################################
+### session1 is done ############################
+### next session = 2 ############################
+########################################################
+- # of response failure in this session = 108. (will be penalized) 
