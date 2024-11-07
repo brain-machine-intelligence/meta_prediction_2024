@@ -2,22 +2,22 @@
 
 Data, Simulation code and the Experiment code for paper
 
-##1. Simulation code
+## 1. Simulation code
 - To perform the simulation, refer to the "SIMUL_cmd_send.m" file.
 
-##2. Task code
+## 2. Task code
 - 2-stage MDP task code used in fMRI experiments in the paper. Run with "task_main_2020.m".
 
-##3. Model fitting code
+## 3. Model fitting code
 - Negative log likelihood was calculated for each action, using softmax function with action value (Q). Free parameters are optimized to minimize the sum of negative log likelihood (which means better estimation of human actions) using Nelder-Mead simplex algorithm. For more details, please refer to the supplementary document of Lee et al. (Neuron, 2014). Especially, "Parameter Estimation" section in supplementary methods explains all the details for inferring parameters.
 
 The sum of negative log likelihood further used to calculate BIC and model comparison (RFX BMS).
 
-##4. Behavior Results
+## 4. Behavior Results
 - Result_save : Raw behavior data from the human experiment
 - SBJ_structure_sjh_con02_extended.mat : Model fitted with the raw behavior data in Result_save
 
-##5. Neural Results
+## 5. Neural Results
 - GLM : fMRI GLM results
 - PSC : fMRI PSC results
 - Regressors : Regressor files to do the GLM and PSC analysis.
