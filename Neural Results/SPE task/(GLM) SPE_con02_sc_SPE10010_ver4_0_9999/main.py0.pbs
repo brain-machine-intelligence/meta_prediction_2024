@@ -1,0 +1,7 @@
+#PBS -N sjh0
+#PBS -l select=1:ncpus=1:host=bml2-slave1
+#PBS -j oe
+#PBS -m a
+pyenv local Code
+cd /home/sjh/RPE_pols
+python main.py  -d --episodes 20000 --trials 20 --ctrl-mode=max-MF-min-MB -n 0 --disable-detail-plot --file-suffix _2021_20_trials_20240717 --task-type=2021 --PMB_CONTROL=0 --Reproduce_BHV=0 --delta-control=0.75 --restore-drop-rate=0.00

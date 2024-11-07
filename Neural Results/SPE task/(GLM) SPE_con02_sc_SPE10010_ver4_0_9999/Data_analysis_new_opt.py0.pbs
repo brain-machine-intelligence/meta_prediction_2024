@@ -1,0 +1,7 @@
+#PBS -N sjh0
+#PBS -l select=1:ncpus=1:host=bml2-slave1
+#PBS -j oe
+#PBS -m a
+pyenv local Code
+cd /home/sjh/RPE_pols
+python Data_analysis_new_opt.py --sbj=0 --mode=max-spe --task=20213 --file-suffix=_20213_20_trials_20240725_delta_control_restore_drop --folderpath=20240725 --restore-drop-rate=0.0
