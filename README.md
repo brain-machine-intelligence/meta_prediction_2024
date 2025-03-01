@@ -4,6 +4,7 @@
 # meta_prediction_2024
 
 Data, Simulation code and the Experiment code for paper
+If you installed Matlab (equal or higher than R2020a), psychotoolbox package, python3 (equal or higher than 3.6.10) and pytorch toolbox, you can run the codes by simply download and un-zip.
 
 ## 1. Simulation code 
 - To perform the simulation, refer to the "SIMUL_cmd_send.m" file.
