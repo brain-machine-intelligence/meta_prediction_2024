@@ -14,13 +14,13 @@ Data, Simulation code and the Experiment code for paper
   - Data_analysis_new_opt.py : .pkl files with the single model's behavior after training
   - Data_analysis_new_opt2.py : .mat and .png files with statistical summary of the individual fitted models
   - shuffle_simulation_new_opt.py : .mat files with the model's behavior during shuffle test
-  - Shuffle_analysis_new_opt.py) : .mat and .png files with statistical summary of models during shuffle tests
+  - Shuffle_analysis_new_opt.py : .mat and .png files with statistical summary of models during shuffle tests
 - Expected time: 2 hours per subjects
   - main.py : 16 hours per subjects
   - Data_analysis_new_opt.py : 30 minutes per subjects
   - Data_analysis_new_opt2.py : 30 minutes
   - shuffle_simulation_new_opt.py : 30 minutes per subjects
-  - Shuffle_analysis_new_opt.py) : 30 minutes
+  - Shuffle_analysis_new_opt.py : 30 minutes
     
 ## 2. Task code
 - 2-stage MDP task code used in fMRI experiments in the paper. Run with "task_main_2020.m".
